@@ -1,4 +1,4 @@
-import type { TGameStatus } from "../types";
+import type { TGameStatus } from "../utils/types";
 
 export const gameStatus: TGameStatus = {
   isOver: false,

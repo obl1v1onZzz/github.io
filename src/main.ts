@@ -1,15 +1,15 @@
-import { render } from "./render";
-import { alternateTurn, currentPlayer } from "./model/payerMove";
+import { render } from "./render/render";
+import { alternateTurn, currentPlayer } from "./model/playerMove";
 import {
   getFieldElementByCoords,
   setFieldElementByCoords,
   elementsCount,
   counterActiveElements,
 } from "./model/field";
-import { checkOfVictory } from "./checkStatusGame";
-import { checkDraw } from "./checkStatusGame";
+import { checkOfVictory } from "./utils/checkStatusGame";
+import { checkDraw } from "./utils/checkStatusGame";
 import { gameStatus } from "./model/gameStatus";
-import type { TCustomEventTarget } from "./types";
+import type { TCustomEventTarget } from "./utils/types";
 
 document.addEventListener("click", function (obj) {
   let element = obj.target as TCustomEventTarget;

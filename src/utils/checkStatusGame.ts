@@ -1,6 +1,6 @@
-import { gameStatus } from "./model/gameStatus";
-import { getFieldElementByCoords, field } from "./model/field";
-import { needToWinElements } from "./model/defaultGameSettings";
+import { gameStatus } from "../model/gameStatus";
+import { getFieldElementByCoords, field } from "../model/field";
+import { needToWinElements } from "../model/defaultGameSettings";
 import type { TCount } from "./types";
 
 export const checkDraw = (elementsCount): boolean => {

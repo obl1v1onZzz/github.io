@@ -1,8 +1,8 @@
-import { UI } from "./ui";
-import type { TCustomDivElement } from "./types";
-import { getFieldElementByCoords, field } from "./model/field";
-import { getSymbolByTurn } from "./model/payerMove";
-import { fieldSize } from "./model/defaultGameSettings";
+import { UI } from "../utils/ui";
+import type { TCustomDivElement } from "../utils/types";
+import { getFieldElementByCoords, field } from "../model/field";
+import { getSymbolByTurn } from "../model/playerMove";
+import { fieldSize } from "../model/defaultGameSettings";
 export const render = {
   draw() {
     UI.STATUS_GAME.innerHTML = "DRAW";

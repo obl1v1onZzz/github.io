@@ -1,4 +1,4 @@
-import { symbolsByTurn } from "./payerMove";
+import { symbolsByTurn } from "./playerMove";
 import { fieldSize } from "./defaultGameSettings";
 export let field: string[][] = new Array(fieldSize)
 

@@ -1,4 +1,4 @@
-import type { TsymbolsByTurn } from "../types";
+import type { TsymbolsByTurn } from "../utils/types";
 
 export const symbolsByTurn: TsymbolsByTurn = {
   "X move": "X",
